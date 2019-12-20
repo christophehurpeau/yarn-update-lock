@@ -6,7 +6,7 @@
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
   "license": "ISC",
   "repository": "https://github.com:christophehurpeau/yarn-update-lock.git",
-  "homepage": "https://github.com/christophehurpeau/pob",
+  "homepage": "https://github.com/christophehurpeau/yarn-update-lock",
   "engines": {
     "node": ">=6.5.0"
   },

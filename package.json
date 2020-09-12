@@ -55,7 +55,7 @@
     "@commitlint/config-conventional": "7.6.0",
     "@pob/eslint-config": "39.0.0",
     "@pob/eslint-config-node": "39.0.0",
-    "eslint": "7.8.1",
+    "eslint": "7.9.0",
     "husky": "2.7.0",
     "lint-staged": "8.1.5",
     "pob-release": "4.13.1",

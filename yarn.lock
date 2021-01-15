@@ -256,28 +256,28 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@pob/eslint-config-node@41.1.2":
-  version "41.1.2"
-  resolved "https://registry.yarnpkg.com/@pob/eslint-config-node/-/eslint-config-node-41.1.2.tgz#35aac645a39e56901d8d8daa0bdc9d1ab001415d"
-  integrity sha512-zpg+y/zjFrfMJwXkEPRVzOZLRUNxB/mRwybiS6tRwusBb21e8jYOcYjCKFP/vqTbFQ+QzsH4DHGYk0ys1cMzLA==
+"@pob/eslint-config-node@42.0.0":
+  version "42.0.0"
+  resolved "https://registry.yarnpkg.com/@pob/eslint-config-node/-/eslint-config-node-42.0.0.tgz#c6f255fad273f510734183e0552f9d284e0eff9c"
+  integrity sha512-ehJsCSbFU/1w7upgyldXJ0iVIey9RGJQjFVHSAHX5G8R2Nxj/ha8X4bFXxc8vBlV5ckrS9fb6YPHK0KNcltvUA==
   dependencies:
-    "@pob/use-eslint-plugin" "^41.1.2"
+    "@pob/use-eslint-plugin" "^42.0.0"
     eslint-plugin-node "^11.1.0"
 
-"@pob/eslint-config@41.1.2":
-  version "41.1.2"
-  resolved "https://registry.yarnpkg.com/@pob/eslint-config/-/eslint-config-41.1.2.tgz#f68047e63dbb51626af2a071a1348935679ef2f9"
-  integrity sha512-fSIdEWlehf4rgZgmBJ+zo0JsLih2/mzLiLCx1eDQ2nXpgd8cplixa0oLU72eMkkaQ07sUxPkJ2Y0Q1Da8UBWsA==
+"@pob/eslint-config@42.0.1":
+  version "42.0.1"
+  resolved "https://registry.yarnpkg.com/@pob/eslint-config/-/eslint-config-42.0.1.tgz#6bc4a89a519e9c36041934138e92b24e7cc8845d"
+  integrity sha512-tkRLr2vUTbtzjPIOq3iTqGVZbrS/uxajXGpI4zE69hCArCFVIrhxolGfnchnlekkGcBU/1CLrZJSkLcX5xtxjw==
   dependencies:
-    "@pob/use-eslint-plugin" "^41.1.2"
+    "@pob/use-eslint-plugin" "^42.0.0"
     eslint-config-airbnb-base "^14.2.1"
-    eslint-config-prettier "^6.11.0"
-    eslint-plugin-unicorn "^24.0.0"
+    eslint-config-prettier "^7.1.0"
+    eslint-plugin-unicorn "^25.0.1"
 
-"@pob/use-eslint-plugin@^41.1.2":
-  version "41.1.2"
-  resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-41.1.2.tgz#4352cfedc80de32b4f0b4eb1e598bb0c0118322f"
-  integrity sha512-VnjOAi8roAAJrsJHKCklfa5aBL/sAb/Vw4D99icPNhOFTr+IKblJ0Z2Syr7ylQ93phLsKVot5RnixgSbEhwTDA==
+"@pob/use-eslint-plugin@^42.0.0":
+  version "42.0.0"
+  resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-42.0.0.tgz#47d8a116be1a5a6d3ab8aec8ea74db741c9dd576"
+  integrity sha512-2hrej0OxBc6kZGaSbSfyMadfNxrY1lhsx6wcsFZpGShFty0yeFdqcgMTOb3biX1vZg8YEuSOEyKMqI7N4ZwwyQ==
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
@@ -1176,12 +1176,10 @@ eslint-config-airbnb-base@^14.2.1:
     object.assign "^4.1.2"
     object.entries "^1.1.2"
 
-eslint-config-prettier@^6.11.0:
-  version "6.11.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.11.0.tgz#f6d2238c1290d01c859a8b5c1f7d352a0b0da8b1"
-  integrity sha512-oB8cpLWSAjOVFEJhhyMZh6NOEOtBVziaqdDQ86+qhDHFbZXoRTM7pNSvFRfW/W/L/LrQ38C99J5CGuRBBzBsdA==
-  dependencies:
-    get-stdin "^6.0.0"
+eslint-config-prettier@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-7.1.0.tgz#5402eb559aa94b894effd6bddfa0b1ca051c858f"
+  integrity sha512-9sm5/PxaFG7qNJvJzTROMM1Bk1ozXVTKI0buKOyb0Bsr1hrwi0H/TzxF/COtf1uxikIK8SwhX7K6zg78jAzbeA==
 
 eslint-plugin-es@^3.0.0:
   version "3.0.1"
@@ -1203,10 +1201,10 @@ eslint-plugin-node@^11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-unicorn@^24.0.0:
-  version "24.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-24.0.0.tgz#08017ccd7ac704777d459cff6e13a35f54cbcab1"
-  integrity sha512-NfLjIZas/ZUwc3S+pUtbTRqgCkODxPEkJBJ5ZR8wIu90BmX4jmXp10hoOZMScR2CR1NYTtrx0OX4BQvBnbzZzA==
+eslint-plugin-unicorn@^25.0.1:
+  version "25.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-25.0.1.tgz#bedcbc9b817042a44f6501584e8266741120f023"
+  integrity sha512-MEyEWoyou/qhJH6rEER9YHACtCsQT+eewc6Fdxbi2eiTvsGrBR8JZMA6qaeof3oMQeRxOpaERoBKzU7R5c4A/w==
   dependencies:
     ci-info "^2.0.0"
     clean-regexp "^1.0.0"
@@ -1604,11 +1602,6 @@ get-stdin@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-4.0.1.tgz#b968c6b0a04384324902e8bf1a5df32579a450fe"
   integrity sha1-uWjGsKBDhDJJAui/Gl3zJXmkUP4=
-
-get-stdin@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-6.0.0.tgz#9e09bf712b360ab9225e812048f71fde9c89657b"
-  integrity sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==
 
 get-stream@^3.0.0:
   version "3.0.0"

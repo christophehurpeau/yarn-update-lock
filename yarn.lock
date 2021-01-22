@@ -256,28 +256,28 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@pob/eslint-config-node@42.0.0":
-  version "42.0.0"
-  resolved "https://registry.yarnpkg.com/@pob/eslint-config-node/-/eslint-config-node-42.0.0.tgz#c6f255fad273f510734183e0552f9d284e0eff9c"
-  integrity sha512-ehJsCSbFU/1w7upgyldXJ0iVIey9RGJQjFVHSAHX5G8R2Nxj/ha8X4bFXxc8vBlV5ckrS9fb6YPHK0KNcltvUA==
+"@pob/eslint-config-node@43.0.0":
+  version "43.0.0"
+  resolved "https://registry.yarnpkg.com/@pob/eslint-config-node/-/eslint-config-node-43.0.0.tgz#af794479c46dba61edbbc8870535dfa840898c1f"
+  integrity sha512-4YLhSwxoAby4nX4f2Vxt6RJ5kwwdYeiI6TmuICkR7dNypIiX2xqAnD9zS7R3EYu9rPLXsL7kLy773gid5ogsRA==
   dependencies:
-    "@pob/use-eslint-plugin" "^42.0.0"
+    "@pob/use-eslint-plugin" "^43.0.0"
     eslint-plugin-node "^11.1.0"
 
-"@pob/eslint-config@42.0.1":
-  version "42.0.1"
-  resolved "https://registry.yarnpkg.com/@pob/eslint-config/-/eslint-config-42.0.1.tgz#6bc4a89a519e9c36041934138e92b24e7cc8845d"
-  integrity sha512-tkRLr2vUTbtzjPIOq3iTqGVZbrS/uxajXGpI4zE69hCArCFVIrhxolGfnchnlekkGcBU/1CLrZJSkLcX5xtxjw==
+"@pob/eslint-config@43.0.0":
+  version "43.0.0"
+  resolved "https://registry.yarnpkg.com/@pob/eslint-config/-/eslint-config-43.0.0.tgz#afba0e20d4ee82123c1acc74237d41058ff93a80"
+  integrity sha512-KwR8FkpVC0c66gURqIJ2qmjikDFSBlYI7y0lW4M2O7lHiDVypAZRUGF8rqiQ1E4Xvd60cBTwBQZcZv5cR8BsUA==
   dependencies:
-    "@pob/use-eslint-plugin" "^42.0.0"
+    "@pob/use-eslint-plugin" "^43.0.0"
     eslint-config-airbnb-base "^14.2.1"
     eslint-config-prettier "^7.1.0"
     eslint-plugin-unicorn "^25.0.1"
 
-"@pob/use-eslint-plugin@^42.0.0":
-  version "42.0.0"
-  resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-42.0.0.tgz#47d8a116be1a5a6d3ab8aec8ea74db741c9dd576"
-  integrity sha512-2hrej0OxBc6kZGaSbSfyMadfNxrY1lhsx6wcsFZpGShFty0yeFdqcgMTOb3biX1vZg8YEuSOEyKMqI7N4ZwwyQ==
+"@pob/use-eslint-plugin@^43.0.0":
+  version "43.0.0"
+  resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-43.0.0.tgz#b91af760564d4c0dfa984ad7883d9ca43406bc97"
+  integrity sha512-mXJiIR2u0HPBTpl5JQ1RYqqW0dmOyeKTwdLsSd5z1mwh2xTMu+d6bnQ0xdvT2dGwXtbVXmTRdie92ECkQSVd5A==
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"

@@ -53,8 +53,8 @@
   "devDependencies": {
     "@commitlint/cli": "7.6.1",
     "@commitlint/config-conventional": "7.6.0",
-    "@pob/eslint-config": "43.0.0",
-    "@pob/eslint-config-node": "43.1.0",
+    "@pob/eslint-config": "43.2.0",
+    "@pob/eslint-config-node": "43.2.0",
     "eslint": "7.23.0",
     "husky": "2.7.0",
     "lint-staged": "8.1.5",

@@ -395,27 +395,27 @@
     "@pob/use-eslint-plugin" "^43.2.0"
     eslint-plugin-node "^11.1.0"
 
-"@pob/eslint-config@46.0.0":
-  version "46.0.0"
-  resolved "https://registry.yarnpkg.com/@pob/eslint-config/-/eslint-config-46.0.0.tgz#cd9fc1486eeecc6e67a8b5e29967eb7648cf902b"
-  integrity sha512-r3AF5Kd8IplIoVdESJiZDW+s2mQbuTr5X9n86ONdiMl3Mokgb0bHwP1ecEsDOEFlh41mHTjhfyYOF30J7qv1ww==
+"@pob/eslint-config@47.1.0":
+  version "47.1.0"
+  resolved "https://registry.yarnpkg.com/@pob/eslint-config/-/eslint-config-47.1.0.tgz#bd625d0947e5c9ae42020f00f93cce50cf49290f"
+  integrity sha512-qLh5s/heS53ouHlnzdkSeFvJycjhXfl4jeFO1H6JEtSywPkEG6lWaNURfTZwU4vOvIryzKGyoKqw7iggPp6n6w==
   dependencies:
-    "@pob/use-eslint-plugin" "^46.0.0"
+    "@pob/use-eslint-plugin" "^47.0.0"
     eslint-config-airbnb-base "^14.2.1"
     eslint-config-prettier "^8.0.0"
     eslint-plugin-import "^2.22.1"
     eslint-plugin-node "^11.1.0"
-    eslint-plugin-unicorn "^35.0.0"
+    eslint-plugin-unicorn "^38.0.1"
 
 "@pob/use-eslint-plugin@^43.2.0":
   version "43.2.0"
   resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-43.2.0.tgz#eacd18b5a0bcac047f5ded21f77952d1f2750306"
   integrity sha512-DLtlCV1RGfEoQl6jwnTA8DhrmI0bVToXJsM8N2jN0bL7Pz+VH7ZURhQ7v79WdGobQ1SkSfRHyOuBDdw5yP31PA==
 
-"@pob/use-eslint-plugin@^46.0.0":
-  version "46.0.0"
-  resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-46.0.0.tgz#33e827b59be5d3d040e18dc2d74b7752047fb2e4"
-  integrity sha512-uV72AK0ZD520fe7+ZeolwiynPCq5bHXUvl8UjuCp61aUwWDaV+ZSSlQAh+mr5bvFDdxgba8Vh+WZskkmUfMFwA==
+"@pob/use-eslint-plugin@^47.0.0":
+  version "47.0.0"
+  resolved "https://registry.yarnpkg.com/@pob/use-eslint-plugin/-/use-eslint-plugin-47.0.0.tgz#0e2bc383b5f1dc8e74fae1a6a739e74dd0177cb9"
+  integrity sha512-WneTr75OMxaMujecQrlLnyK8knki46zkwLnjDrh1IfhuNuvXVfJfNqLf3y0WfWpiSPxDDEjo8vFUS0LVVSy1sA==
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
@@ -1455,16 +1455,18 @@ eslint-plugin-node@^11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-unicorn@^35.0.0:
-  version "35.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-35.0.0.tgz#40797793d4f645bafaaa7a1396b8f4ca7b2a7dbd"
-  integrity sha512-FHsaO68tDPQILfs/mGF8eSISJp8RswR4FpUuBDnueK2wyEHC6zmsc9WxjYyldXoIsBuVmru6jQyFCbCWPoW/KQ==
+eslint-plugin-unicorn@^38.0.1:
+  version "38.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-38.0.1.tgz#f95a7fa6e8c92617cdcb4b1ddbc15d877477e73d"
+  integrity sha512-eu4HCg7Bv43nk/hYZoWpLzRo668Nb7swQySn94aohn0heh9KLJ1GOFgVxJndLS8BploMGaClxgsyTNGJrP69yw==
   dependencies:
     "@babel/helper-validator-identifier" "^7.14.9"
     ci-info "^3.2.0"
     clean-regexp "^1.0.0"
     eslint-template-visitor "^2.3.2"
     eslint-utils "^3.0.0"
+    esquery "^1.4.0"
+    indent-string "4"
     is-builtin-module "^3.1.0"
     lodash "^4.17.21"
     pluralize "^8.0.0"
@@ -1472,6 +1474,7 @@ eslint-plugin-unicorn@^35.0.0:
     regexp-tree "^0.1.23"
     safe-regex "^2.1.1"
     semver "^7.3.5"
+    strip-indent "^3.0.0"
 
 eslint-scope@5.1.0:
   version "5.1.0"
@@ -2119,6 +2122,11 @@ imurmurhash@^0.1.4:
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
 
+indent-string@4, indent-string@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
+  integrity sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==
+
 indent-string@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-2.1.0.tgz#8e2d48348742121b4a8218b7a137e9a52049dc80"
@@ -2130,11 +2138,6 @@ indent-string@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-3.2.0.tgz#4a5fd6d27cc332f37e5419a504dbb837105c9289"
   integrity sha1-Sl/W0nzDMvN+VBmlBNu4NxBckok=
-
-indent-string@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
-  integrity sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==
 
 inflight@^1.0.4:
   version "1.0.6"
